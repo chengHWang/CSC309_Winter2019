@@ -1,0 +1,45 @@
+/* Boxes style sheet */
+
+body {
+	margin: 0;
+}
+
+#box1 {
+	background-color: salmon;
+	width: 25%;
+	height: 50vh;
+	/*display: inline-block;*/
+	float: left;
+}
+
+#box2 {
+	/*box2 is at the right of box1;*/
+	background-color: MediumAquamarine;
+	width: 70%;
+	/*display: inline;*/
+	/*float: left;*/
+	
+	margin-left: 25%;
+}
+
+#box3 {
+	/*box3 is inside the box2*/
+	background-color: Indigo;
+	width: 100%;
+	color: white;
+}
+
+.absolute {
+	/*Class for the :)*/
+	position: absolute;
+}
+
+.relative {
+	position: relative;
+}
+
+.red {
+	/*Class for the :)*/
+	color: red;
+}
+
