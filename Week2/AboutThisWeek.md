@@ -1,0 +1,1 @@
+We learned how to use the basic elements in the html and how to link a .css file to .html file and code in the css file.
