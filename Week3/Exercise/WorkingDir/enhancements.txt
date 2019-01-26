@@ -1,0 +1,16 @@
+1. Add some more information and pictures to the profileInfo div, all the pictures are from the 
+    real UofT twitter on Jan26th.
+
+2. Add a "Sign Up" div and a "other user" div at the right of TimeLine div, according to the real 
+    tweet website.
+
+3. Create a map on the picture of Robart Library in the second tweet. You can access to the 
+    website of fisher library and robart library by clicking the corresponding area in the picture.
+
+4. Add links to corresponding websites in: 
+	utoronto.ca in profileInfo div;
+	all the "might interested in user" at right hand side;
+	Career Learning Network (CLN) in my third tweet;
+    All the webs will be opened in a new page.
+
+5. A "back to top" link at the very end of the page.

@@ -96,15 +96,16 @@ a {
 	margin-left:50px;
 	width: 300px;
 	float:left;
+	display:inline-block;
 }
 
 
 /*** Timeline styles below ***/
 
 #timeline {
+	display:inline-block;
 	border-radius: 10px;
 	background-color: white;
-	display:inline-block;
 	width:600px;
 	margin-top:20px;
 	margin-left:40px;
@@ -112,30 +113,30 @@ a {
 }
 
 #signUpAndOtherUsers{
-	float:right;
-	margin-right:170px;
+	position:absolute;
+	top:400px;
+	left:1030px;
 	width:300px;
-	margin-top:20px;
+	margin-top:10px;
 	margin-left:10px;
+	min-height:100px;
 }
 
 #signUp{
-	border-radius: 10px;
 	background-color: white;
-	float:right;
-	margin-right:170px;
 	width:300px;
-	margin-top:20px;
-	margin-left:10px;
+
 }
 
 #otherUsers{
-	border-radius: 10px;
 	background-color: white;
-	float:right;
 	width:300px;
-	min-height:100px;
+	margin-top:20px;
+	min-height:200px;
+}
 
+#User{
+	width:300px;
 }
 
 .timelineHeader {
