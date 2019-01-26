@@ -6,31 +6,26 @@ body {
 
 #box1 {
 	background-color: salmon;
-	width: 25%;
-	height: 50vh;
+	width: 30%;
+	height: 100vh;
 	/*display: inline-block;*/
 	float: left;
 }
 
 #box2 {
-	/*box2 is at the right of box1;*/
 	background-color: MediumAquamarine;
 	width: 70%;
 	/*display: inline;*/
 	/*float: left;*/
-	
-	margin-left: 25%;
+	margin-left: 30%;
 }
 
 #box3 {
-	/*box3 is inside the box2*/
 	background-color: Indigo;
-	width: 100%;
 	color: white;
 }
 
 .absolute {
-	/*Class for the :)*/
 	position: absolute;
 }
 
@@ -39,7 +34,7 @@ body {
 }
 
 .red {
-	/*Class for the :)*/
 	color: red;
 }
+
 
