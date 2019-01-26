@@ -45,6 +45,12 @@ a {
 	
 }
 
+.pictureOfUofT{
+	width:90px;
+	height:90px;
+	margin-left:5px;
+	margin-top:5px;
+}
 
 /*** Profile Statistics Bar styles below ***/
 
@@ -98,12 +104,37 @@ a {
 #timeline {
 	border-radius: 10px;
 	background-color: white;
-
-	/* Add properties below */
 	display:inline-block;
 	width:600px;
 	margin-top:20px;
 	margin-left:40px;
+
+}
+
+#signUpAndOtherUsers{
+	float:right;
+	margin-right:170px;
+	width:300px;
+	margin-top:20px;
+	margin-left:10px;
+}
+
+#signUp{
+	border-radius: 10px;
+	background-color: white;
+	float:right;
+	margin-right:170px;
+	width:300px;
+	margin-top:20px;
+	margin-left:10px;
+}
+
+#otherUsers{
+	border-radius: 10px;
+	background-color: white;
+	float:right;
+	width:300px;
+	min-height:100px;
 
 }
 
@@ -193,6 +224,7 @@ a {
 	border:2px white solid;
 }
 
+
 /** Some font color classes for you to use. **/
 .grey {
 	color: grey;
@@ -205,4 +237,19 @@ a {
 
 .blue {
 	color:blue;	
+}
+
+#picturesOfUofT{
+	width:300px;
+	min-height:100px;
+}
+
+#signUpButton{
+	margin-left:10px;
+	margin-bottom:20px;
+	background-color: darkblue;
+	color: white;
+	height:50px;
+	width:250px;
+	border-radius: 20px;
 }

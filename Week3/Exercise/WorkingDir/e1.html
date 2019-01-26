@@ -12,12 +12,12 @@
  
  	<!-- The header -->
  	<div id="header">
-		<img src="bird.png" alt="birdImage" class="birdLogo">
+		<img src="./OtherPics/bird.png" alt="birdImage" class="birdLogo">
  	</div>
 
 	<!-- The big banner image -->
  	<div id="banner"> <!-- Just holds the banner image, don't need to style this div. -->
-		<img src="uoft_banner.jpeg" alt="banner" class="bannerPic">
+		<img src="./OtherPics/uoft_banner.jpeg" alt="banner" class="bannerPic">
  	</div>
 
 <!-- Step1 is done :) -->
@@ -44,6 +44,17 @@
  		<p>
  			Connect with Canada's top university and one of the world’s strongest academic and research powerhouses. Find the latest news & events @uoftnews. #UofT
 		</p>
+		<p><span class="grey">Toronto, Ontario, Canada</span></p>
+		<p><span class="grey"><u><a href="https://www.utoronto.ca/" target="_blank"><abbr title="https://www.utoronto.ca">utoronto.ca</abbr></a></u></span></p>
+		<p><span class="grey">2919 pictures and videos</span></p>
+		<div id="picturesOfUofT">
+			<img src="./DesPics/DesPic1.jpg" alt="DesPic1" class="pictureOfUofT">
+			<img src="./DesPics/DesPic2.jpg" alt="DesPic2" class="pictureOfUofT">
+			<img src="./DesPics/DesPic3.jpg" alt="DesPic3" class="pictureOfUofT">
+			<img src="./DesPics/DesPic4.jpg" alt="DesPic4" class="pictureOfUofT">
+			<img src="./DesPics/DesPic5.jpg" alt="DesPic5" class="pictureOfUofT">
+			<img src="./DesPics/DesPic6.jpg" alt="DesPic6" class="pictureOfUofT">
+		</div>
  	</div>
 
 
@@ -66,7 +77,7 @@
  			match these descriptions. -->
 			<div class="tweetIconContainer">
 				<div class="tweetIcon">
-					<img src="uoft.jpg" alt="uoft" class="tweetContentPicture">
+					<img src="./OtherPics/uoft.jpg" alt="uoft" class="tweetContentPicture">
 				</div>
 			</div>
 			<div class="tweetContent">
@@ -85,7 +96,7 @@
  			and just change the content of the tweet. -->
 			<div class="tweetIconContainer">
 				<div class="tweetIcon">
-					<img src="uoft.jpg" alt="uoft" class="tweetContentPicture">
+					<img src="./OtherPics/uoft.jpg" alt="uoft" class="tweetContentPicture">
 				</div>
 			</div>
 			<div class="tweetContent">
@@ -94,7 +105,11 @@
 					<br>
 					Check out some books at <span class="hashtag">#robarts</span>
 				</p>
-				<img src="robarts.jpg" alt="robarts" style="max-width:500px">
+				<img src="./OtherPics/robarts.jpg" alt="robarts" style="max-width:500px" usemap="#libraryMap">
+				
+				<map name="libraryMap">
+					<area shape="rect" coords="250,30,450,300" alt="Robart" href="https://onesearch.library.utoronto.ca/library-info/ROBARTS" target="_blank">
+					<area shape="rect" coords="50,30,250,300" alt="Fisher" href="https://fisher.library.utoronto.ca/" target="_blank">
 			</div>
  		</div>
 
@@ -104,7 +119,7 @@
  			and just change the content of the tweet. -->
 			<div class="tweetIconContainer">
 				<div class="tweetIcon">
-					<img src="debbie.jpg" alt="uoft" class="tweetContentPicture">
+					<img src="./OtherPics/debbie.jpg" alt="uoft" class="tweetContentPicture">
 				</div>
 			</div>
 			<div class="tweetContent">
@@ -119,10 +134,21 @@
 					<a href="https://clnx.utoronto.ca/home.htm" style="color:blue"><u>Career Learning Network (CLN).</u></a>
 			</div>
  		</div>
+		
+		
+		<p style="text-align:center;"><a href="#header"><b><span class="grey">↑↑↑Back to top↑↑↑</span><b></a></p>	
  	</div>
 	
+
 	
-	<img src="uoft.jpg" alt="UofT" id='bigProfilePicCircle'>
+	<div id="signUp">
+		<h2 style="margin:10px;"><b>First Time Use Twitter?</b></h2>
+		<p style="font-size:90%; margin:10px;"><span class="grey">Sign up right now and get your own timeline!</span></p>
+		<button id="signUpButton"> Sign Up!</button>
+	</div>
+
+	
+	<img src="./OtherPics/uoft.jpg" alt="UofT" id='bigProfilePicCircle'>
 	
  </body>
 </html>
