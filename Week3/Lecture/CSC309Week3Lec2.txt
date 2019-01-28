@@ -1,4 +1,0 @@
-.............
-
-JS support closure
-Reference to scopes that can be passed around
