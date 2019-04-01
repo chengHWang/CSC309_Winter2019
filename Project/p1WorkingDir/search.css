@@ -1,0 +1,64 @@
+#leftSideBar {
+    float: left;
+    margin: 20px;
+    margin-top: 10px;
+    width: 15%;
+    clear: left;
+}
+
+.category {
+    text-align: center;
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#categories a {
+    text-decoration: none;
+}
+
+
+#ranking {
+    margin: 10px;
+}
+
+.bookDisplay {
+    clear: right;
+    display: inline-block;
+    padding: 20px;
+   
+    border-bottom: 1px solid grey;
+    width:60%;
+}
+
+.bookDisplayImg {
+    width: 150px;
+    height: 250px;
+    display: block;
+    float: left
+}
+
+.bookDisplayText {
+    float: left;
+    width: 50%;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.displayInfo {
+    color: #8e8d8a;
+    font-size: 12px;
+}
+
+.displayDesc {
+    font-size: 11px;
+}
+
+#center {
+    float: left;
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 30px;
+}

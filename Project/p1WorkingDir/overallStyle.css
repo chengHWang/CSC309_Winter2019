@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    font-family: "Times New Roman", Times, serif;
+    background-color: #fcfcf4 !important;
+    font-family: "Palatino", Times, serif !important;
 }
 
 h1 {
@@ -9,8 +10,114 @@ h1 {
 }
 
 #wrapper {
-    background-color: #e6ecf0;
-    padding-right: 10%;
-    padding-left: 10%;
-    padding-top: 100px;
+
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-top: 20px;
 }
+
+
+/* ------------   Header css styling -----------*/
+#header{
+    height:100px;
+}
+#bookLogo {
+    /* Add properties below */
+    width: 50px;
+    margin-left: 70px;
+    float: left;
+}
+
+#title {
+    font-family: 'Lobster Two', Helvetica, sans-serif;;
+    color: #2b2b2b;
+    text-shadow: 1px 1px 0px #8e8d8a, 4px 4px 0px rgba(0, 0, 0, 0.15);
+    float: left;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+#menuBar {
+    overflow: hidden;
+    width: 200px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 40px;
+    float: left;
+}
+
+#menuBar a {
+    float: left;
+    font-size: 16px;
+    color: #67898a;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    border: 2px solid #67898a;
+    margin: 5px;
+    font-weight: bold;
+}
+
+
+#menuBar a:hover {
+    background-color: #254e58;
+    border: 2px solid #254e58;
+    color: white;
+}
+
+.searchBar {
+    font-size: 15px;
+    width: 44%;
+    height: 40px;
+    margin: 10px;
+    margin-left: 100px;
+    float: left;
+    border: 2px solid #bdcebe;
+    display: block;
+}
+
+::placeholder {
+    margin: 2px;
+    color: white;
+}
+
+#searchLogo {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 40px;
+    margin-top: 13px;
+}
+
+/* -------------  Theme color classes -----------*/
+.lightBlue {
+    color: #bdcdce;
+}
+
+.darkBlue {
+    color: #124559;
+}
+
+.darkGreen {
+    color: #bdcebe;
+}
+
+.darkerGreen {
+    color: #91ad93;
+}
+
+.darkGreenBackground {
+    background-color: #bdcebe;
+}
+
+.lightGreenBackground {
+    background-color: #fcfcf4;
+}
+
+
+/* -----------------------Theme color codes   -----------------------   */
+/* Background color: #eae7dc */
+/* Light purple (used for emphasis) : #e4dbda */
+/* Darker purple font color: #cebebd */
+/* Light grey font color: #8e8d8a */
+/* Decorating red color: (lighter) #e98074, (brighter) #e85a4f */

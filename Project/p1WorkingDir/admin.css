@@ -1,0 +1,151 @@
+#profileimg {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: solid black;
+}
+
+.profileimgcontent {
+    width: 250px;
+    margin: 0 auto;
+}
+.profiletextcontainer{
+    text-align: center;
+    height: 200px;
+    border: solid black;
+}
+.containment {
+    margin-top: 30px;
+}
+
+.profileheader {
+    text-align: center;
+}
+
+.statscontainer {
+    border: solid black;
+}
+
+.statbox {
+    width: 32%;
+    display: inline-block;
+    font-size: 25px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+#book-shelf {
+    margin-top: 30px;
+    border: solid gray;
+    border-width: 5px;
+    background-size: cover;
+    background-repeat: repeat-y;
+    
+}
+
+#book-shelf h1 {
+    margin: 10px;
+    text-align: center;
+}
+
+.shelf-search {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.rows-container {
+    margin-top: 30px;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-bottom: 20px;
+}
+
+
+.book-row {
+    display: flex;
+    justify-content: space-between;
+    height: 30%;
+    padding-left: 0px;
+    border-bottom: black 4px;
+}
+
+.book-row li{
+	list-style: none;
+    height: 80%;
+    display: block;
+    margin: 7px;
+    box-shadow: 5px 5px 14px 4px rgba(42,42,42,0.79);
+}
+
+.book-row li img{
+    height: 100%;
+    width: 100px;
+}
+
+
+.rows-container {
+    height: 600px;
+}
+
+.shelf-navs {
+    width: 7.5%;
+}
+
+.nav-container ul{
+    border-top: solid black;
+    margin-top: 10px;
+    display: block;
+}
+
+.nav-container ul li{
+    border: solid black;
+    border-top: none;
+}
+
+.nav-container ul li:hover{
+    background: #dbe4f1;
+  }
+
+.nav-container ul li.active{
+background: #dbe4f1;
+}
+
+.nav-container ul li.active a{
+    color: #0056b3;
+  }
+
+#ranking {
+    margin: 10px;
+}
+
+.bookDisplay {
+    clear: right;
+    display: inline-block;
+    padding: 20px;
+   
+    border-bottom: 1px solid grey;
+    width:50%;
+}
+
+.bookDisplayImg {
+    width: 100px;
+    height: 150px;
+    display: block;
+    float: left
+}
+
+.bookDisplayText {
+    float: left;
+    width: 50%;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.displayInfo {
+    color: #8e8d8a;
+    font-size: 12px;
+}
+
+.displayDesc {
+    font-size: 11px;
